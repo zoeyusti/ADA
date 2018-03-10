@@ -1,0 +1,26 @@
+h4{
+	color: #2438E8;
+	font-size: 15px;
+	
+}
+/*h5{
+	font-size: 20px;
+}*/
+
+h6{
+	font-size: 15px;
+	color: #B0B0B0;
+}
+
+#descripcion{
+	font-size: 20px;
+}
+
+#titulo{
+	margin-left: 100px;
+
+}
+
+p{
+	font-size: 20px;
+}
