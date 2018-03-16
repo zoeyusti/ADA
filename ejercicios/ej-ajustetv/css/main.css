@@ -1,0 +1,72 @@
+.container{
+	background-color: black;
+
+}
+
+.blanco{
+	
+	background-color: white;
+	
+}
+.amarillo{
+	background-color: yellow;
+	
+}
+.cyan{
+	background-color: cyan;
+	
+}
+.verde{
+	background-color: #08FF00;
+	height: 20em;
+}
+.rosa{
+	/*background-color: #E978EA;*/
+	background-color: magenta;
+	
+}
+.rojo{
+	background-color: red;
+	
+}
+.azul{
+	background-color: blue;
+	
+}
+.negro{
+	background-color: black;
+}
+
+.alto{
+	height: 20em;
+}
+ .bajo{
+ 	height: 4em;
+ }
+ .masbajo{
+ 	height: 3em;
+ }
+
+ .gradienteder{
+ 	 background: linear-gradient(to left, #000000 0%, #ffffff 100%);
+ }
+
+
+.grisoscuro{
+	background-color: #616161; 
+}
+
+.gris{
+	background-color: #8F8F8F;
+}
+.grisclaro{
+	background-color: #D2D2D2;
+}
+
+.grisosc{
+	background-color: #292929;
+}
+
+.griscl{
+	background-color: #E7E7E7;
+}

@@ -1,0 +1,71 @@
+*{margin: 0;}
+
+body{
+	background-color: #EEECEC;
+}
+
+.Logo{
+	background-color: lightgrey;
+	height: 75px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+nav{
+	background-color: lightgrey;
+	height: 50px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.banner{
+	background-color: lightgrey;
+	height: 125px;
+	width: 100%;
+	position: relative;
+}
+
+
+.sidebar{
+	margin-top: 15px;
+	background-color: lightgrey;
+	height: 225px;
+	width: 30%;
+	float: left;
+}
+
+.bodyarea{
+	margin-top: 15px;
+	background-color: lightgrey;
+	height: 225px;
+	width: 68%;
+	float: right;
+}
+
+p{
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fixed{
+	left: 47%;
+	top: 190px;
+	color: #B62A2A;
+	position: absolute;
+
+}
+
+footer{
+	display: inline-block;
+	margin-top: 15px;
+	width: 100%;
+	height: 70px;
+	background-color: lightgrey;
+	bottom: 0;
+}

@@ -4,11 +4,16 @@
 
 header{
 	background: black;
-	height: auto;
+	height: 100px;
 }
 h1{
 	color: white;
 	padding-top: 20px;
+	clear: none;
+}
+
+.clear{
+	clear: none;
 }
 
 nav{
@@ -20,7 +25,7 @@ nav{
 /*	display: table-cell;*/
 	background: purple;
 	/*width: 250px;*/
-	height: 75px;
+	height: 10em;
 /*	margin: 50px;*/
 	
 }
@@ -78,6 +83,8 @@ img{
 	float: right;
 }
 
+
+
 p{
 	padding-top: 30px;
 }
@@ -94,5 +101,62 @@ p{
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
+
+}
+
+
+/*		 ACA AGREGAMOS EL COSO RESPONSIVE
+		SI SE ROMPE TODO BORRA A PARTIR DE ACA*/
+
+
+@media (max-width: 480px) {
+	section div.trescuadros{
+		display: none;
+	}
+	header{
+		margin-bottom: 1%;
+	}
+	section div.doscuadros{
+		margin-left: 5%;
+		width: 90%;
+		display: block;
+		margin-bottom: 0px;
+		margin-top: 0em;
+		height: 10em
+	}
+	div.uncuadro{
+		width: 90%;
+		margin-left: 5%;
+		display: block;
+	}
+
+	div.rectangulo{
+		width: 90%;
+		margin-left: 5%;
+		display: block;
+		position: relative;
+	}
+
+	/*div.btn{
+		position: absolute;
+		top: 50%;
+		right: 5%;
+		height: 20em;		
+	}*/
+
+	.btn{
+		margin: 0;	
+		display: block;	
+		
+	}
+
+	nav{
+		text-align: right;
+		margin: 0;
+		position: absolute;
+		top: 25%;
+		right: 0;
+
+	}
 
 }

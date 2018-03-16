@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.caja{
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.roja{
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.verde{
+	background: green;
+}
+
+.azul{
+	background: blue;
+}
+
+.amarillo{
+	background: yellow;
+}
