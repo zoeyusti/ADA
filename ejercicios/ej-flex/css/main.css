@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.caja{
+	width: 500px;
+	height: 70px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin: 1px;	
+}
+
+a{
+	margin: 1px;
+	background-color: grey;
+	font-size: 15px;
+	height: 30px;
+}
+
+nav{
+	background-color: grey;
+	font-size: 15px;
+	color: black;
+	height: 30px;
+	padding-top: 5px;
+	display: flex;
+
+}
+
+.izquierda{
+
+	justify-content: flex-start;
+
+}
+
+.centro{
+	justify-content: center;
+}
+
+.derecha{
+	justify-content: flex-end;
+}
+
+.entre{
+	justify-content: space-between;
+}
+.alrededor{
+	justify-content: space-around;
+}
+
+.vertical{
+	flex-direction: column;
+}
+
+a:hover{
+	
+	background-color: white;
+}

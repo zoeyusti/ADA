@@ -1,0 +1,81 @@
+*{margin:0;}
+
+.menu{
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+
+nav{
+	margin-left: 30px;
+	margin-top: 30px;
+	position: relative;
+}
+.productos{
+	display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+@media (max-width: 480px){
+	
+	.producto{
+		width: 180px;
+	}
+
+	.productos{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu{
+		height: 40px;
+		width: 40px;
+	}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	.productos{
+		
+		display: block;
+		margin-left: 1%;
+		padding-right: 200px;
+	}
+	p{
+		position: absolute;
+		right: 25%;
+
+	}
+	
+}
+
+@media (max-width: 480px){
+	
+	.producto{
+		width: 180px;
+	}
+
+	.productos{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu{
+		height: 40px;
+		width: 40px;
+	}
+}
+

@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor{
+	width: 80%;
+}
+
+header{
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding: 5px;
+	width: 920px;
+}
+section{
+	display: flex;
+}
+article{
+	width: 300px;
+	flex-direction: row;
+	padding: 5px;
+}
+
+.bronce{
+	background-color: #CD7F32;
+}
+.plata{
+	background-color: silver;
+}
+.oro{
+	background-color: gold;
+}
+
+h5{
+	font-size: 16px;
+	text-align: center;
+}
