@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor{
+	width: 100%;
+	font-family: 'Indie Flower';
+}
+header{
+	text-align: center;
+}
+
+
+nav a, nav select{
+	margin: 0 2vw;
+	color: black;
+	border: none;
+}
+nav a:hover{
+	color: orange;
+}
+.banner .row .col-md-3, .banner .row .col-s-3 img, .banner .row .col-xs-3 img{
+	width: 24vw;
+	margin: 2vw 0;
+}
+.imgbtn{
+	position: relative;
+}
+.imgbtn .row .col-md-3 img, .imgbtn .row .col-s-3 img, .imgbtn .row .col-xs-3 img{
+	width: 24vw;
+	margin: 2vw 0;
+	border-radius: 20%
+}
+
+.imgbtn .row .col-md-3 select{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	border: dashed;
+	border-width: 1%;
+	border-color: lightcoral;
+	padding: 5%;
+	border-radius: 50%;
+	width: 8vw;
+	height: auto;
+}
+.arts h6, section .row .col-md-2 h6{
+	color: grey;
+	
+}
+section iframe{
+	width: 40vw;
+	height: 30vw;
+}
+#intro{
+	text-align: center;
+}
+h4{
+	background-color: lightpink;
+	padding: 1vw 0;
+}
+
+#intro img{
+	border-radius: 50%;
+	width: 10vw;
+}
+.arts{
+	margin: 2vw 0;
+}
+.arts img{
+	border-radius: 15%;
+	margin: 0 0 3vw 0;
+	width: 30vw;
+	height: auto;
+}
+.arts h5{
+	font-size: 1.8vw;
+	margin: 1vw 0;
+}
+.arts p{
+	margin: 1vw 0;
+}
+.arts button{
+	background-color: lightpink;
+	text-align: center;
+	border: none;
+	padding: 1vw 2vw;
+	border-radius: 20%;
+	margin: 1vw 0;
+}
+footer{
+	text-align: center;
+}
+footer a{
+	margin: 0 2vw;
+}
