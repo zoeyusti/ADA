@@ -4,7 +4,7 @@
 }
 
 .contenedor{
-	width: 100%;
+	width: 98%;
 	font-family: 'Indie Flower';
 }
 header{
@@ -20,10 +20,30 @@ nav a, nav select{
 nav a:hover{
 	color: orange;
 }
-.banner .row .col-md-3, .banner .row .col-s-3 img, .banner .row .col-xs-3 img{
+.banner{
+	position: relative;
+}
+.banner .row .col-md-3 img, .banner .row .col-s-3 img, .banner .row .col-xs-3 img{
 	width: 24vw;
 	margin: 2vw 0;
 }
+.banner .row .col-md-3 .hov, .banner .row .col-s-3 .hov, .banner .row .col-xs-3 .hov{
+	visibility: hidden;
+	margin: 0;
+	position: absolute;
+	bottom: 2vw;
+}
+.banner .row .col-md-3:hover .hov, .banner .row .col-s-3:hover .hov, .banner .row .col-xs-3:hover .hov{
+	visibility: visible;
+	width: 24vw;
+	height: 4vw;
+	text-align: center;
+	position: absolute;
+	bottom: 2vw;
+	background-color: rgba(253, 174, 174, 0.5);
+	margin: 0;
+}
+
 .imgbtn{
 	position: relative;
 }
