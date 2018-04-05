@@ -3,6 +3,7 @@ var y=new Array("a","l","f","a","j","o","r");
 var i=0;
 var j=0;
 var cont=0;
+var tam=x.length;
 
 console.log(x);
 console.log(y);
@@ -56,7 +57,7 @@ console.log(cont);*/
 i=0;
 j=0;
 
-while(x[i]!=x[4]){
+while(x[i]!=x[tam]){
 	while(x[i]==y[j]) {
 		cont++;
 		j++;
