@@ -35,7 +35,13 @@ function shuffle(array) {
 function jugar(){			
 	crearImagenes();
 	document.getElementById('memotest').style.display = "block";
-	document.getElementById("jugar").style.display="none";
+	document.getElementById('jugar').style.display="none";
+	document.getElementById('name')
+}
+
+function cargarNombre(){
+	var nombres = document.getElementById('name').value;
+	document.getElementById('nameJugador').innerHTML = nombres;
 }
 
 
@@ -60,18 +66,18 @@ function imgcheck(imagen){
 		}else{
 			if(prim.id=="si"){
 				prim.id=pid;
-				setTimeout(function(){changeimages(imagen)}, 800);
-				setTimeout(function(){changeimages(prim)}, 800);
+				setTimeout(function(){changeimages(imagen)}, 700);
+				setTimeout(function(){changeimages(prim)}, 700);
 				intentos++;							
 			}
 		}
 		if (intentos==10) {
-			alert("Podes seguir jugando, pero quiero que sepas que sos muy malo para esto :(");
+			setTimeout(function(){alert("Podes seguir jugando, pero quiero que sepas que sos muy malo para esto :(");}, 300);
 		}
 
 		if (intentos==20) {
-			alert("Uh, disculpá, pero ya me da lástima ver esto. Mejor empezá de vuelta");
-			location.reload();
+			setTimeout(function(){alert("Uh, disculpá, pero ya me da lástima ver esto. Mejor empezá de vuelta");}, 300);
+			setTimeout(function(){location.reload();}, 700);
 		}
 	
 		first=true;
@@ -81,8 +87,8 @@ function imgcheck(imagen){
 	
 	}
 	if (total==6){
-			alert("FELICIDADES!! No te ganaste nada, solo el derecho de decir que ganaste");
-			location.reload();
+			setTimeout(function() {alert("FELICIDADES!! No te ganaste nada, solo el derecho de decir que ganaste");}, 300);
+			setTimeout(function(){location.reload();}, 700);
 		}
 }
 

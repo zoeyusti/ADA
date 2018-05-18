@@ -19,21 +19,21 @@
 					<td><img src="imgs/back.png" id="0" onclick='imgcheck(this)'/></td>
 					<td><img src="imgs/back.png" id="1" onclick='imgcheck(this)'/></td>
 					<td><img src="imgs/back.png" id="2" onclick='imgcheck(this)'/></td>
+					<td><img src="imgs/back.png" id="3" onclick='imgcheck(this)'/></td>
 					
 				</tr>
 				<tr>
 
-					<td><img src="imgs/back.png" id="3" onclick='imgcheck(this)'/></td>
+					
 					<td><img src="imgs/back.png" id="4" onclick='imgcheck(this)'/></td>
 					<td><img src="imgs/back.png" id="5" onclick='imgcheck(this)'/></td>
+					<td><img src="imgs/back.png" id="6" onclick='imgcheck(this)'/></td>
+					<td><img src="imgs/back.png" id="7" onclick='imgcheck(this)'/></td>
 					
 				</tr>
 				<tr>						
-					<td><img src="imgs/back.png" id="6" onclick='imgcheck(this)'/></td>
-					<td><img src="imgs/back.png" id="7" onclick='imgcheck(this)'/></td>
-					<td><img src="imgs/back.png" id="8" onclick='imgcheck(this)'/></td>		
-				</tr>	
-				<tr>	
+					
+					<td><img src="imgs/back.png" id="8" onclick='imgcheck(this)'/></td>			
 					<td><img src="imgs/back.png" id="9" onclick='imgcheck(this)'/></td>
 					<td><img src="imgs/back.png" id="10" onclick='imgcheck(this)'/></td>
 					<td><img src="imgs/back.png" id="11" onclick='imgcheck(this)'/></td>
@@ -44,7 +44,9 @@
 			<div class="info">
 				<h2>Juego de la memoria</h2>
 				<h3>Jugador: </h3>
-				<input type="text" placeholder="Nombre Jugador" id="name">
+				<input type="text" placeholder="Nombre Jugador" id="name" onkeyup="cargarNombre()">
+				<input type="button" id="nameok" value="OK" onclick="cargarNombre()">
+				<div id="nameJugador"></div>
 				<h4>Instrucciones: </h4>
 				<p>Haz click en una ficha</p>
 				<p>Busca su compañera</p>
