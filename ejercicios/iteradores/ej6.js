@@ -41,7 +41,7 @@ DICE LA CANT DE VECES QUE SE REPITE, NO LA CANT DE LETRAS
 
 i=0;
 
-while(x[i]!=x[4]){
+while(x[i]!=x[tam]){
 	for (var j=0; j < 7; j++) {
 		if(x[i]==y[j]){
 			cont++;

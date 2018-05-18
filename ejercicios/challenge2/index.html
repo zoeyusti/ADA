@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<h3>Formulario de inscripción</h3>
+
+	<form onsubmit="return ValidarObligatorios(x)">
+		<label>Nombre: </label><input id="Nombreid" type="text" name="Nombre" required=""> *
+		<br>
+		<br>
+		Apellido: <input type="text" name="Apellido" required=""> *
+		<br>
+		<br>
+		Nacionalidad: <select id="Nacionalidadid">
+			<option value="0">Seleccione una opción</option>
+			<!-- <option>Argentino/a</option>
+			<option>Venezolano/a</option>
+			<option>Uruguayo/a</option>
+			<option>Brasileño/a</option>
+		</select> --> *
+		<br>
+		<br>
+		Fecha de Nacimiento: <input id="Nacimientoid" type="text" name="Nacimiento" required=""> *
+		<br>
+		<br>
+		Tipo de documento: <select>
+			<option>DNI</option>
+			<option>Libreta cívica</option>
+			<option>Pasaporte</option>
+		</select>
+		Número de documento: <input  id="documentoid" type="text" name="documento" required=""> *
+		<br>
+		<br>
+		Calle: <input id="Calleid" type="text" name="Calle" required=""> *
+		<br>
+		<br>
+		Número: <input type="text" name="nro-calle">
+		Piso: <input type="text" name="Piso">
+		Depto: <input type="text" name="Depto">
+		<br>
+		<br>
+		Provincia: <select>
+			<option>Buenos Aires</option>
+			<option>CABA</option>
+			<option>Córdoba</option>
+			<option>Santa Fé</option>
+		</select>
+		<br>
+		<br>
+		Ciudad: <select>
+			<option>CABA</option>
+			<option>otros</option>
+			<option>No sabe no contesta</option>
+		</select>
+		<br>
+		<br>
+		Género: * 
+		<br>
+		<br>
+		<input class="generoid" type="radio" name="genero" value="femenino"> Femenino
+		<input class="generoid" type="radio" name="genero" value="masculino"> Masculino
+		<input class="generoid" type="radio" name="genero" value="otros"> Otros
+		<br>
+		<br>
+		Deportes:
+		<br>
+		<br>
+		<input type="checkbox" name="Futbol"> Fútbol
+		<br>
+		<br>
+		<input type="checkbox" name="Hockey"> Hockey
+		<br>
+		<br>
+		<input type="checkbox" name="Voley"> Voley
+		<br>
+		<br>
+		Altura: <input type="text" name="Altura">
+		Peso: <input type="text" name="Peso">
+		<br>
+		<br>
+		Teléfono: <input type="text" name="Telefono">
+		<br>
+		<br>
+		Email: <input id="Emailid" type="text" name="Email"> *
+		<br>
+		<br>
+		Observaciones:
+		<br>
+		<br>
+		<input type="text" name="Observaciones">
+		<br>
+		<br>
+		<br>
+		<input type="Submit" name="Enviar">
+
+	</form>
+
+
+<script type="text/javascript" src="challenge.js"></script>	
+</body>
+</html>

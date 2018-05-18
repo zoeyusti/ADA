@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alta Cumple</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form>	
+		<div class="formu">
+			<label>Nombre</label>
+			<input type="text" placeholder="nombre" id="nombre" required>
+		</div>
+		<div class="formu">
+			<label>Fecha de cumpleaños</label>
+			<input type="date" name="fecha" id="fecha" required>
+		</div>
+		<div class="formu">
+			<label>Imagen elegida</label>
+			<input type="text" placeholder="imagen" id="imagen" readonly>
+		</div>
+
+		<div class="imagenes">
+			<img src="PNG/LegoGreenLantern.png" width="200px" data-nombre="greenlantern">
+			<img src="PNG/LegoSuperman.png" width="200px" data-nombre="superman">
+			<img src="PNG/LegoBatman.png" width="200px" data-nombre="batman">
+			<img src="PNG/LegoCatwoman.png" width="200px" data-nombre="catwoman">
+			<img src="PNG/LegoHarleyQuinn.png" width="200px" data-nombre="harleyquinn">
+			<img src="PNG/LegoRiddler.png" width="200px" data-nombre="riddler">
+		</div>
+		<div>
+			<button id="guardar">Guardar</button>
+		</div>
+	</form>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

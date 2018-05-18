@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.formu{
+	margin: 25px;
+	display: inline-block;
+}
+#guardar{
+	margin: 50px 100px;
+
+}
