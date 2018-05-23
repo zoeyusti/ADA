@@ -1,0 +1,15 @@
+{
+  "name": "pipi",
+  "version": "1.0.0",
+  "description": "este es un ejemplo de node con express",
+  "main": "server.js",
+  "scripts": {
+    "iniciar": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zoe Y. <zoeyusti@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
