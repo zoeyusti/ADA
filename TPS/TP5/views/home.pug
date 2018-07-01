@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	div(class="col-xs-12 col-sm-8 col-md-10" id="homebody")
+		div.row
+			div(class="col-xs-12 col-md-12")
+				h1="Bienvenidos a Kanto jóvenes entrenadores"
+				img(src="images/logo.png" id="logo")
+				h4="Haz click en filtrar para ver quién puede ser tu nuevo compañero de aventuras" 
+				h4="Recuerda que puedes ver tus favoritos aquí abajo"
+				if(favoritos.length>0)
+					each favorito in favoritos
+						a(class="fave" href="/poke/ficha/"+favorito)=favorito

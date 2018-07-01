@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	div(class="col-xs-12 col-sm-8 col-md-10" id="calesitapokes")
+		div(class="row centrar")
+			each pokemon in pokemones
+				div(class="col-xs-6 col-md-4 pokeitem")
+					img(src=src=pokemon.imagen class="pokeimagen")
+					p.pokeParrafo=pokemon.nombre
+					div.icons
+						a(href="/poke/ficha/"+pokemon.nombre)
+							i.fas.fa-eye
+						if(pokemon.favorito)
+							i(class="fas fa-heart favorito" data-id=pokemon.nombre)
+						else
+							i(class="fas fa-heart" data-id=pokemon.nombre)
+			div(class="row")
+				div(class="todosnumeros col-xs-12")
+					each pagina in paginas
+						a(href='/poke/filtro/'+pagina class="numero")=pagina
+
+

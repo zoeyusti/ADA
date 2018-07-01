@@ -1,0 +1,42 @@
+doctype html
+html
+	head
+		title Pokemon
+		link(rel="icon" href="/images/icon.png")
+		link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css' integrity='sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp' crossorigin='anonymous')
+		link(href='https://fonts.googleapis.com/css?family=Coiny' rel='stylesheet')
+		link(rel='stylesheet' href="/stylesheets/bootstrap.min.css")
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		div(class="contenedor container-fluid")
+			div(class="row")
+				div(class="col-xs-12 col-sm-12 col-md-12")
+					header 
+						a(href="/")
+							h3 Inicio
+			div(class="row" id="cont")
+				div(class="col-xs-12 col-sm-4 col-md-2")
+					form(action="/poke/filtro" method="POST")
+						label(for="tipo") Tipo
+						select(name="tipo") 
+							option(val="todos") Todos
+							option(val="planta") Planta
+							option(val="agua") Agua
+							option(val="fuego") Fuego
+							option(val="bicho") Bicho
+							option(val="normal") Normal
+							option(val="veneno") Veneno
+							option(val="psiquico") Psiquico
+							option(val="lucha") Lucha
+							option(val="roca") Roca
+							option(val="fantasma") Fantasma
+						label(for="evolucion") Evolución
+						select(name="evolucion")
+							option(val="todos") Todos
+							option(val="inicial") Inicial
+							option(val="intermedio") Intermedio
+							option(val="final") Final
+						input(id="filtro" type="submit" value="filtrar")
+				block content
+		script(src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous')
+		script(src='/javascripts/main.js')
