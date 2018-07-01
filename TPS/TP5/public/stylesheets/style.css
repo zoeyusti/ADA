@@ -138,10 +138,20 @@ text-align: center;
 	align-items:center;
 }
 
+.cartodo{
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+}
+
 
 .carta h2 {
 	color:#0092cc;
 	font-weight:bold;
+}
+
+.carta h5{
+	text-transform: capitalize;	
 }
 
 

@@ -2,14 +2,14 @@ extends layout
 
 block content
 	div(class="col-xs-12 col-sm-8 col-md-10" id="vistaIndividual")
-		div.row
-			div(class="col-xs-12 col-md-3")
+		div(class="row cartodo")
+			div(class="col-xs-12 col-md-offset-2 col-md-4")
 				img(src=pokemon.imagen)
-			div(class="col-xs-12 col-md-9 carta")
+			div(class="col-xs-12 col-md-6 carta")
 				h2=pokemon.nombre
 				
-				h5 tipo: #{pokemon.tipo}
-				h5 evolución: #{pokemon.evolucion}
+				h5 Tipo: #{pokemon.tipo}
+				h5 Evolución: #{pokemon.evolucion}
 				if(pokemon.favorito===true)
 					p.favorito Es un favorito :D
 				a(href="/poke/filtro/1") Volver al listado de pokemons
