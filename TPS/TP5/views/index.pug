@@ -9,7 +9,7 @@ block content
 					p.pokeParrafo=pokemon.nombre
 					div.icons
 						a(href="/poke/ficha/"+pokemon.nombre)
-							i.fas.fa-eye
+							i(class="fa fa-id-card")
 						if(pokemon.favorito)
 							i(class="fas fa-heart favorito" data-id=pokemon.nombre)
 						else

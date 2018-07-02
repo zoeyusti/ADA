@@ -50,30 +50,25 @@ let pokemones = [
 
 var favoritos = ["Gastly","Haunter","Gengar"];
 
-/**Retorna el array de pokemones completo**/
 service.pokemones = function(){
 	return pokemones
 }
 
-/*Retorna el array de favoritos*/
 service.favoritos = function(){
 	return favoritos
 }
 
-/*Agrega/quita favoritos según corresponda. Reescribe el array y la propiedad favorito de los pokemones*/
+
 service.crearFavoritos = function(favorito){
-	//Chequeo si ya está en el array de favoritos. Si es así, lo remuevo. Si no, lo incluyo
 	var repetido = favoritos.indexOf(favorito);
 	if(repetido >= 0){
         favoritos.splice(repetido, 1);
  	}else{
        	favoritos.push(favorito);
 	}
-	//Reseteo el atributo "favorito" en todos los pokemones
 	for(i=0;i<pokemones.length;i++){
 		pokemones[i].favorito=false;
 	}
-	//Vuelvo a recorrer el array de pokemones y marco como "favoritos" a los que sigan estando en el array de favoritos
 	for(i=0;i<favoritos.length;i++){
 		for(j=0;j<pokemones.length;j++){
 			if(pokemones[j].nombre===favoritos[i]){
@@ -83,7 +78,6 @@ service.crearFavoritos = function(favorito){
 	}
 }
 
-/*Busca en el array de pokemones por parámetro y retorna el pokemon*/
 service.buscar = function(item){
 	for(i=0;i<pokemones.length;i++){
 		if(item===pokemones[i].nombre){
