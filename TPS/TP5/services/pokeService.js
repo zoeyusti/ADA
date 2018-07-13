@@ -48,6 +48,7 @@ let pokemones = [
 	{"nombre":"Gengar", "tipo":"fantasma", "evolucion":"final", "favorito":true, "imagen":"../../images/094Gengar.png"},
 ];
 
+//No puedo creer que puse 45 pokemones. Menos mal que no fui por los 151
 var favoritos = ["Gastly","Haunter","Gengar"];
 
 service.pokemones = function(){

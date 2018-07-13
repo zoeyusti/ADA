@@ -1,0 +1,96 @@
+/*#21DBB1 verde
+#21A8DB celeste rgb(33, 168, 219)
+#214BDB azul
+#5421DB violeta rgb(177, 33, 219)
+#B121DB lila
+#DB21A8 rosa*/
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	background-color: rgb(177, 33, 219, 0.4)
+}
+
+#header{
+	background-color: #21DBB1;
+	padding: 10px;
+	width: 98.5%;
+	height: 75px;
+	overflow: hidden;
+}
+#header .media{
+	text-align: right;
+}
+
+#header a{
+	margin: 10px;
+	
+}
+#header h1{
+	float: left;
+	color: #5421DB; 
+	margin-top: 15px;
+}
+
+#intro, #skills, #education, #repos{
+	width: 60%;
+	background-color: rgb(33, 168, 219, 0.5);
+	margin: auto;
+}
+
+#intro{
+	height: 200px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20%;
+
+}
+
+
+#intro img{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#intro h1{
+	color: white;
+}
+
+
+#skills p, #education li{
+	width: 60%;
+	margin: auto;
+}
+
+#repos ul li{
+	height: 50px;
+	margin: 5px;
+	position: relative;
+	width: 85%;
+}
+
+#repos a{
+	position: absolute;
+	top: 20px;
+}
+
+#repos img{
+	width: 30px;
+	border-radius: 50%;
+	margin: 10px 5px 5px 5px;
+
+
+}
+
+li{
+	list-style: none;
+}

@@ -40,8 +40,7 @@ self.filtrar = function(req,res,next){
 }
 
 /*Paginado que mata, gracias google*/
-self.paginar = function(req,res,next){
-	//verifico cuántas páginas voy a necesitar 
+self.paginar = function(req,res,next){ 
 	var cantPaginas = filtroPokemon.length/3;
 	if(!Number.isInteger(cantPaginas)){
 		paginas = Math.floor(cantPaginas + 1)
