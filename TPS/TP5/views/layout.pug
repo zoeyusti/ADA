@@ -36,6 +36,10 @@ html
 							option(val="inicial") Inicial
 							option(val="intermedio") Intermedio
 							option(val="final") Final
+						label(for="favorito") Favorito
+						select(name="favorito")
+							option(val="todos") Todos
+							option(val="true") Favoritos
 						input(id="filtro" type="submit" value="filtrar")
 				block content
 		script(src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous')

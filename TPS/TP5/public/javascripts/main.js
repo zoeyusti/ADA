@@ -26,4 +26,4 @@ $.ajax({
 
                             
 
-console.log(favoritos);
+//console.log(favoritos);
