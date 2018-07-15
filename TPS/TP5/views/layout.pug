@@ -4,18 +4,17 @@ html
 		title Pokemon
 		link(rel="icon" href="/images/icon.png")
 		link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css' integrity='sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp' crossorigin='anonymous')
-		link(href='https://fonts.googleapis.com/css?family=Coiny' rel='stylesheet')
 		link(rel='stylesheet' href="/stylesheets/bootstrap.min.css")
 		link(rel='stylesheet', href='/stylesheets/style.css')
 	body
 		div(class="contenedor container-fluid")
 			div(class="row")
-				div(class="col-xs-12 col-sm-12 col-md-12")
+				div(class="col-xs-12 col-md-12")
 					header 
 						a(href="/")
 							h3 Inicio
 			div(class="row" id="cont")
-				div(class="col-xs-12 col-sm-4 col-md-2")
+				div(class="col-xs-12 col-md-2")
 					form(action="/poke/filtro" method="POST")
 						label(for="tipo") Tipo
 						select(name="tipo") 

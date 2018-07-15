@@ -79,6 +79,8 @@ self.paginar = function(req,res,next){
 		var arrayPaginado = arrayPaginas.slice(principio,fin);
 		console.log(arrayPaginado);
 
+	}else{
+		var arrayPaginado = arrayPaginas;
 	}
 
 	//acordate que numero empieza desde 0, hace bien las cuentas
